@@ -2,8 +2,7 @@
 clear
 
 ### - start export >----------------->>
-## ----------------->> Bash Script By Hatunnel
-## ----------------->> Moded & fixed Script By Dotycat
+## ----------------->> Script By Dotycat
 ## ----------------->> Visit our website wwww.dotycat.com
 
 export RED='\033[0;31m'
