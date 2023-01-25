@@ -33,7 +33,7 @@ clear
 sudo apt update && sudo apt upgrade -y
 
 clear
-sudo su -
+#sudo su -
 sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 service sshd restart
