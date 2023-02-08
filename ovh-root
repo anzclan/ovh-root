@@ -38,6 +38,7 @@ echo -e " ${BLUE}│${NC}       TELEGRAM CH ${RED}@dotycat${NC} ADMIN ${RED}@anz
 echo -e " ${BLUE}└────────────────────────────────────────────────────┘${NC}"
 echo -e " ${BLUE}•────────────────────────────────────────────────────•${NC}"
 sudo passwd root
+sudo apt install curl -y
 sudo apt update && sudo apt upgrade -y
 sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
 sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
