@@ -38,7 +38,7 @@ sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ss
 sudo sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
 service sshd restart
 sleep 4
-passwd
+###passwd
 echo -e "$INFO Successfully , Try Login Using 'root' Users"
 echo -e "$BLUE•────────────────────────────────────────────────────•$NC"
 echo -e ""
